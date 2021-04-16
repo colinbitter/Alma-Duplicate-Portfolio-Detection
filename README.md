@@ -1,2 +1,2 @@
 # Alma-Duplicate-Portfolio-Detection
-For evaluating portfolios in Alma
+Alma can create/attach duplicate portfolios to the same MMS ID for any number of reasons. This script will account for any inconsistencies between URL storage locations, eliminate http/s discrepancies, and finally output a file of duplicate portfolios in xlsx. DuplicatePorts.py expects csv as input. At minimum, csv should contain: Portfolio Static URL, Portfolio Static URL (override), MMS Id, and Portfolio ID.
